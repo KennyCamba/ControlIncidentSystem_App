@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/ic_menu_report"
+            android:title="Reportar" />
+        <item
+            android:id="@+id/route"
+            android:icon="@drawable/ic_map"
+            android:title="Consultar ruta" />
+        <item
+            android:id="@+id/zone"
+            android:icon="@drawable/ic_local"
+            android:title="Consultar sector" />
+        <item
+            android:id="@+id/acerca"
+            android:icon="@drawable/ic_about"
+            android:title="Acerca de" />
+    </group>
+
+</menu>

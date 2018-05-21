@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:hint="Punto central"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:id="@+id/partida"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:layout_marginLeft="5dp"
+                android:hint="Radio"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:id="@+id/radio"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:addStatesFromChildren="true"
+                android:keepScreenOn="true"
+                android:scrollbars="horizontal">
+
+                <FrameLayout
+                    android:id="@+id/map_zone"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+                <!--android:name="com.google.android.gms.maps.SupportMapFragment"-->
+            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="CONSULTAR"
+                style="@style/tw__ComposerTweetButton"
+                android:id="@+id/consultar"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

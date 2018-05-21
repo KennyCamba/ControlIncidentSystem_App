@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">vGMKZK8z7tERgTsPmA2Nip8Xs</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">	dmcYi4N7Hr2OOe1k9QzMxCMkBKLmw2UBgD1h3QKmYubk8vOf57</string>
+    <string name="token">946153172791386112-xNKxBVelUnisul0r7uj2YcIDrTn7Cuj</string>
+    <string name="secret">XVK3XjoDtPsDDjl5aH5sTq0oiSzCHOZax7owgNwiFlFaO</string>
+</resources>
